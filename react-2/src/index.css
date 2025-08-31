@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin-top: 4em;
+  background-color: #f4f4f4;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+ul {
+  padding: 1em;
+  background-color: lightgray;
+  border-radius: 1em;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+li {
+  padding: 0.8em;
+  border-radius: 1em;
+  border-bottom: 1px solid rgb(155, 148, 148);
+  cursor: pointer;
+}
+
+li:hover {
+  background-color:  rgb(146, 139, 139);
+}
+
+li:active {
+  background-color:  rgb(177, 171, 171);
+}
