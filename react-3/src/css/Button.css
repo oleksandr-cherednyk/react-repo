@@ -1,0 +1,11 @@
+.rating-btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #00798a;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.rating-btn.active { background: #026652; }
+.rating-btn:hover { opacity: 0.9; }

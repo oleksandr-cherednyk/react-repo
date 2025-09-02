@@ -1,0 +1,20 @@
+
+.rating-container {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  padding: 16px;
+}
+
+.rating-image {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
