@@ -1,0 +1,39 @@
+.main,
+.textGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  gap: 2em;
+}
+
+.title {
+  font-size: 4em;
+  text-transform: uppercase;
+  text-wrap: wrap;
+  hyphens: auto;
+  text-align: center;
+}
+
+.text {
+  font-size: 2em;
+}
+
+@media (max-width: 780px) {
+  .title {
+    font-size: 3em;
+    text-wrap: balance;
+  }
+  .linksItem {
+    height: 4em;
+    width: 4em;
+    border-radius: 20px;
+  }
+
+  .text {
+    font-size: 1.5em;
+  }
+}

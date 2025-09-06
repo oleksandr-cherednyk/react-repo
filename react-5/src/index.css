@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #0c0417;
+  --main-color: #1ed760;
+  --hover-color: #4285f4;
+}
+
+body {
+  height: 100vh;
+  font-family: Rubik;
+  font-weight: 700;
+  background-color: var(--bg-color);
+  color: var(--main-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 1200px) {
+  body {
+    padding: 2em;
+  }
+}
+
