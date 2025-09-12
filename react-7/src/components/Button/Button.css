@@ -1,0 +1,13 @@
+.btn {
+  width: 8em;
+  padding: 0.5em 1em;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 1.5em;
+  background-color: rgb(116, 116, 246);
+  cursor: pointer;
+}
