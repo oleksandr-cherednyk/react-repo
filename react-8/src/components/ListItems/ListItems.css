@@ -1,0 +1,14 @@
+.container {
+  margin: 1em auto;
+  padding: 2em;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background-color: rgb(247, 244, 244);
+  border-radius: 1em;
+}
+.form {
+  display: flex;
+  gap: 1em;
+}
