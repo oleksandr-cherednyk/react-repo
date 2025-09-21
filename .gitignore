@@ -1,0 +1,16 @@
+# Игнорируем папки node_modules
+node_modules/
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Сборки
+dist/
+build/
+
+# Кэш
+.cache/
+.DS_Store
+
