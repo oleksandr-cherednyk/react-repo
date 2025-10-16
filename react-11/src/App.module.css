@@ -1,0 +1,12 @@
+.app {
+    min-height: 100vh;
+    background-color: rgb(223, 230, 230);
+}
+
+.main {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 1020px;
+    height: 1000px;
+    background-color: aliceblue;
+}

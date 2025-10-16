@@ -1,0 +1,29 @@
+.nav {
+  max-width: 1020px;
+  padding: 16px 20px;
+  border-bottom: 1px solid #2b3147;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+}
+
+.link {
+  padding: 6px 10px;
+  text-decoration: none;
+  color: #c7d2ee;
+  border-radius: 8px;
+}
+
+.link:hover {
+  background: #30385e;
+}
+
+.active {
+  background: #23315e;
+  color: #fff;
+
+}
