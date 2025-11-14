@@ -1,0 +1,30 @@
+.card {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.author {
+  align-self: flex-end;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.button {
+  width: max-content;
+  padding: 6px 16px;
+  cursor: pointer;
+  background-color: rgb(131, 131, 239);
+  color: white;
+  border: 0;
+}
+
+.error {
+  color: red;
+}
