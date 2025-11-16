@@ -1,0 +1,16 @@
+body {
+  margin: 0 auto;
+}
+
+.page {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.form {
+  margin-bottom: 1.5rem;
+}
+
+.result-card {
+  margin-top: 8px;
+}
