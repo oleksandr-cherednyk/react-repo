@@ -1,0 +1,21 @@
+.question {
+  margin-bottom: 1.5rem;
+}
+
+.text {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.optionLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
