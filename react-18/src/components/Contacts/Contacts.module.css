@@ -1,0 +1,68 @@
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.input {
+  padding: 10px 12px;
+  border: 1px solid #d9d6d6;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #5487ee;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.socialTitle {
+  font-weight: 600;
+}
+
+.socials {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.socials img {
+  width: 32px;
+  height: 32px;
+}
