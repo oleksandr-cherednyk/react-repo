@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  margin: 0 auto;
+  padding: 1rem;
+  min-height: 100vh;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: rgb(236, 242, 240);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(77, 64, 64);
+}
